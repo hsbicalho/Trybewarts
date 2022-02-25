@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-body{
-  padding: 0px;
-  margin: 0px
-}
-=======
 body {
   padding: 0;
   margin: 0;
 }
 
->>>>>>> Cristiano-e-Heitor-Projeto-Heitor
 .trybewarts-login {
   display: flex;
 }
@@ -38,4 +31,10 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+#nomeCompleto{
+  display: flex;
+}
+#localizacao{
+  display: flex;
 }

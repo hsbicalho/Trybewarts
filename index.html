@@ -23,19 +23,39 @@
     <main>
       <section>
         <form id="evaluation-form" action="" method="get">
-          <input type="text" name="Nome" id="input-name" placeholder="Nome">
-          <input type="text" name="Sobrenome" id="input-lastname" placeholder="Sobrenome">
-          <input type="email" name="Email" id="input-email" placeholder="Email">
+          <div id="nomeCompleto">
+            <input type="text" name="Nome" id="input-name" placeholder="Nome">
+            <input type="text" name="Sobrenome" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <div id="localizacao">
+            <input type="email" name="Email" id="input-email" placeholder="Email">
+          <label for="house"
+              >Casa:
+              <select class="linha-dados" name="house" id="house">
+                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+              </select>
+            </label>
+        </div>
+        <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div></div>
+          <div>
+            <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">
+            <label for="HoFs">HoFs</label>
+            <input type="checkbox" name="Jest" id="Jest" value="Jest">
+            <label for="Jest">Jest</label>
+            <input type="checkbox" name="Promises" id="Promises" value="Promises">
+            <label for="Promises">Promises</label>
+            <input type="checkbox" name="React" id="React" value="React">
+            <label for="React">React</label>
+            <input type="checkbox" name="SQL" id="SQL" value="SQL">
+            <label for="SQL">SQL</label>
+            <input type="checkbox" name="Python" id="Python" value="Python">
+            <label for="Python">Python</label>
+          </div>
         </form>
-        <label for="house"
-            >Casa:
-            <select class="linha-dados" name="house" id="house">
-              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-              <option value="Corvinode" id="corvinode-house">Corvinode</option>
-              <option value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
-          </label>
       </section>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
     </main>
