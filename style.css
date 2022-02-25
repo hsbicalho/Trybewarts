@@ -41,3 +41,12 @@ main {
 #localizacao {
   display: flex;
 }
+
+#familia-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+#conteiner-to-learn {
+  display: flex;
+}
