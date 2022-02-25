@@ -50,3 +50,11 @@ main {
 #conteiner-to-learn {
   display: flex;
 }
+
+#conteiner-geral {
+  display: flex;
+}
+
+#conteudo-conteiner {
+  margin-left: 50px;
+}
