@@ -58,3 +58,7 @@ main {
 #conteudo-conteiner {
   margin-left: 50px;
 }
+
+#notas {
+  display: flex;
+}
